@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color:rgb(160, 165, 221);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-right ul li {
+    margin-left: 20px;
+}
+
+.navbar-right ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.text-violet {
+    color: black;
+}
+
+.about, .projects, .contact {
+    padding: 50px 0;
+}
+
+h2 {
+    color: rgb(108, 113, 163);
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-item {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 1 calc(50% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight:bold;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color:rgb(108, 113, 163);;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: rgb(160, 165, 221);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
